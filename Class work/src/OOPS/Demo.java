@@ -33,7 +33,7 @@ public class Demo extends A {
         A d1 = new A();
         A a2 = new Demo();
         Demo d2 = new Demo();
-        Demo b = new A();
+//        Demo b = new A();
         d1.dog();
 //        Student s1 = new Student();
 //        Student s2 = new Student("Rahul");
