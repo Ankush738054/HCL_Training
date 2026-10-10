@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Class work/Class work.iml" filepath="$PROJECT_DIR$/Class work/Class work.iml" />
       <module fileurl="file://$PROJECT_DIR$/HCL Training.iml" filepath="$PROJECT_DIR$/HCL Training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module1/Module1.iml" filepath="$PROJECT_DIR$/Module1/Module1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Self Learning/Self Learning.iml" filepath="$PROJECT_DIR$/Self Learning/Self Learning.iml" />
     </modules>
   </component>

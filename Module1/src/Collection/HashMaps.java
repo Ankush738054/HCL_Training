@@ -3,11 +3,11 @@ import java.util.*;
 public class HashMaps {
     public static void main() {
         Map<Integer, String> marks = new HashMap<>();
-        marks.put(1,"ABC");
-        marks.put(2,"DEF");
+        marks.put(4,"ABC");
+        marks.put(5,"DEF");
         marks.put(3,"GHI");
-        marks.put(4,"JKL");
-        marks.put(5,"MNO");
+        marks.put(1,"JKL");
+        marks.put(2,"MNO");
         System.out.println(marks);
         System.out.println(marks.get(4));
         System.out.println(marks.containsKey(2));
