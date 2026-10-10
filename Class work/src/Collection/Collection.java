@@ -28,21 +28,21 @@ public class Collection {
 //        System.out.println("All elements"+ numbers);
 //
 //
-        Stack<Integer> st = new Stack<>();
-        st.push(20);
-        st.push(30);
-        st.push(40);
-        st.push(50);
-        st.push(60);
-
-        st.pop();
-        st.pop();
-        st.push(80);
-        System.out.println(st.search(40));
-        st.pop();
-        System.out.println(st.peek());
-        System.out.println(st.size());
-        System.out.println(st);
+//        Stack<Integer> st = new Stack<>();
+//        st.push(20);
+//        st.push(30);
+//        st.push(40);
+//        st.push(50);
+//        st.push(60);
+//
+//        st.pop();
+//        st.pop();
+//        st.push(80);
+//        System.out.println(st.search(40));
+//        st.pop();
+//        System.out.println(st.peek());
+//        System.out.println(st.size());
+//        System.out.println(st);
 
 //        LinkedList<String> fruits = new LinkedList<>();
 //        fruits.add("Apple");
@@ -54,6 +54,21 @@ public class Collection {
 //        fruits.addFirst("Orange");
 //        fruits.addFirst("Grapes");
 
+
+        ArrayDeque<Integer> st = new ArrayDeque<>();
+        st.push(20);
+        st.push(30);
+        st.push(40);
+        st.push(50);
+        st.push(60);
+
+        st.pop();
+        st.pop();
+        st.push(80);
+        st.pop();
+        System.out.println(st.peek());
+        System.out.println(st.size());
+        System.out.println(st);
 
     }
 }
