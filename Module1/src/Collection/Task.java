@@ -1,7 +1,7 @@
 package Collection;
 import java.util.*;
 public class Task {
-    static class student{
+    static class student implements Comparable<student>{
         String name;
         int rollno;
         int age;
@@ -15,6 +15,9 @@ public class Task {
         @Override
         public String toString() {
             return name + " " + rollno + " " + age + " " + marks;
+        }
+        public int compareTo(student o) {
+            return this.age-o.age;
         }
     }
     public static void main(String[] args) {
@@ -30,10 +33,12 @@ public class Task {
         List.add(new student("I",9,70,60));
         List.add(new student("J",10,70,60));
 
+
+        Collections.sort(List);
         System.out.println(List);
-        Collections.sort(List,(x,y)-> Integer.compare(x.age,y.age));
-        System.out.println(List);
-        Collections.sort(List,(x,y)-> Integer.compare(x.marks,y.marks));
-        System.out.println(List);
+//        Collections.sort(List,(x,y)-> Integer.compare(x.age,y.age));
+//        System.out.println(List);
+//        Collections.sort(List,(x,y)-> Integer.compare(x.marks,y.marks));
+//        System.out.println(List);
     }
 }
